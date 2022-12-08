@@ -1,0 +1,5 @@
+User [id=100, Nickname=John Kapika, Name=Иван, Surname=Воробьев, Age=21, Mobile=mobile, Email=email, Password=password]
+User [id=101, Nickname=Papa Pudge, Name=Ильяс, Surname=Арбузов, Age=19, Mobile=mobile, Email=email, Password=paasword1]
+User [id=102, Nickname=Mika, Name=Миша, Surname=Кобзарь, Age=19, Mobile=mobile, Email=email, Password=password2]
+User [id=103, Nickname=alex.GOOD, Name=Александра, Surname=Годунова, Age=20, Mobile=89148076323, Email=email, Password=password3]User [id=104, Nickname=John1Kapika, Name=Иван, Surname=Воробьев, Age=21, Mobile=89181996050, Email=email, Password=пароль]
+User [id=105, Nickname=John1Kapika, Name=Иван, Surname=Воробьев, Age=21, Mobile=89181996050, Email=email, Password=password]
