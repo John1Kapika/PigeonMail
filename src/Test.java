@@ -4,7 +4,7 @@ public class Test {
         Encryptor enc = new Encryptor(
                 "C:\\Users\\John Kapika\\Documents\\Primer1Maks\\src\\public.key",
                 "C:\\Users\\John Kapika\\Documents\\Primer1Maks\\src\\private.key",
-                "johnkapika");
+                "RealJohnKapika3115");
 
         String encryptedMessage = enc.encryptPGP(stringToEncrypt);
         System.out.println(encryptedMessage);

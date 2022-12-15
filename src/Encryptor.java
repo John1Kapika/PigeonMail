@@ -30,14 +30,14 @@ public class Encryptor {
         }
         return null;
     }
-    public static String decryptedPGP(String encryptedMessage) throws PGPException, IOException {
+    public static String decryptedPGP(String encryptedMessage) throws IOException {
         try {
             return pgp.decryptString(encryptedMessage,
                     privateKey,
                     privateKeyPassword);
         }
         catch (PGPException e) {
-            System.out.println("Во время шифрования возникло некоторое исключение");
+            System.out.println("Во время шифрования возникла ошибка");
             e.printStackTrace();
         }
         return null;

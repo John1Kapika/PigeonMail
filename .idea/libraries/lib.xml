@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../../../../../Program Files (x86)/gnupg/lib" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
