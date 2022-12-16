@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4602-ff78-4f9f-a29d-87023f2ffb76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public.key" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PigeonMail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PigeonMail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privatekey.key" beforeDir="false" afterPath="$PROJECT_DIR$/privatekey.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publickey.key" beforeDir="false" afterPath="$PROJECT_DIR$/publickey.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privatekey.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publickey.key" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
@@ -47,7 +49,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Program Files (x86)/gnupg",
+    "last_opened_file_path": "C:/Users/John Kapika/Documents/Primer1Maks",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
