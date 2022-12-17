@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,11 +18,27 @@ public class Messeng {
         }
         Time t = new Time();
     public String toString() {
-        return nick1 + ": " + text + " [" + t.time + "]";
+        String encryptMesseng;
+        try {
+            Encryptor enc = new Encryptor(
+                    "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\public.key",
+                    "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\private.key",
+                    "RealJohnKapika3115");
+            encryptMesseng = enc.encrypt(nick1 + ": " + text + " [" + t.time + "]");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return encryptMesseng;
     }
     public void messeng1() throws IOException {
+        Encryptor enc = new Encryptor(
+                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\public.key",
+                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\private.key",
+                "RealJohnKapika3115");
         messeng();
-        Database.txtSaveFile(m, toString());
-        System.out.println(toString());
+        Database.txtSaveFile(m, enc.decrypted(toString()));
+        System.out.println(enc.decrypted(toString()));
     }
 }
