@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4602-ff78-4f9f-a29d-87023f2ffb76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public.key" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PigeonMail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PigeonMail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privatekey.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publickey.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/private.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public.key" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/John Kapika/Documents/Primer1Maks",
+    "last_opened_file_path": "C:/Users/John Kapika/YandexDisk/Учёба/Java/PigeonMail all/PigeonMail",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"

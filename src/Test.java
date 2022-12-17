@@ -2,8 +2,8 @@ public class Test {
     public static void main(String[] args) throws Exception {
         String stringToEncrypt = "У нас получилось!";
         Encryptor enc = new Encryptor(
-                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\scr\\public.key",
-                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\scr\\private.key",
+                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\public.key",
+                "C:\\Users\\John Kapika\\YandexDisk\\Учёба\\Java\\PigeonMail all\\PigeonMail\\private.key",
                 "RealJohnKapika3115");
 
         String encryptedMessage = enc.encrypt(stringToEncrypt);
